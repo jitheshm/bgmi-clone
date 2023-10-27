@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
 
 }
 .leftNav{
@@ -30,6 +31,7 @@
 body{
     font-family:'Teko', 'Oswald', sans-serif;
     font-size: 20px;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -64,5 +66,56 @@ a:focus{
     padding-right: 18px;
     line-height: 76px;
     
+}
+
+.coverVideo{
+    height: 759.938px;
+  
+    /* width: 100%; */
+    /* background-color: #00bcf5; */
+}
+.videoSec{
+    width: 100%;
+    /* object-fit: cover; */
+    position: absolute;
+    z-index: 0;
+}
+
+.coverContent{
+    position: relative;
+    height:759.938px ;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    padding-left: 80px;
+}
+.coverText{
+    color: #530c0a;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 0.9em;
+    height: 200px;
+}
+.appStore{
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_appstore_202.png);
+    width: 202px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.playStore{
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_googleplay_202.png);
+    width: 202px;
+    height: 60px;
+    display: inline-block;
+
+}
+
+.coverFooter{
+position: absolute;
+top: 680px;
+right: 80px;
 }
 
