@@ -1,0 +1,68 @@
+.navbar{
+    height: 76px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+    
+}
+.logoBox{
+    margin-left: 20px;
+}
+.logo{
+    height: 50px;
+}
+.navLink{
+    padding-left: 40px;
+    display: flex;
+    gap: 30px;
+    color: #ffffff80;
+}
+body{
+    font-family:'Teko', 'Oswald', sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+   
+}
+a:hover{
+    color: #ffffff;
+}
+a:focus{
+    color:#f2a900;
+    outline: none;
+}
+.socialIconsContainer{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    
+}
+.socialIcons{
+    margin-right: 10px;
+}
+.navBtn{ 
+   
+    height: 76px;
+    background-color: #f2a900;
+    width: auto;
+    font-weight: 700;
+    font-size: 18PX;
+    color: #333;
+    padding-left: 18PX;
+    padding-right: 18px;
+    line-height: 76px;
+    
+}
+
