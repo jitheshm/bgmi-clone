@@ -118,4 +118,34 @@ position: absolute;
 top: 680px;
 right: 80px;
 }
+.youtubeContainer{
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/videot_bg.jpg);
+    background-size: cover;
+    height: 850px;
+    margin-top: -55px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.youtubeContainer .content{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
 
+.title{
+    font-family: "Headliner-No-45";
+    font-size: 55px;
+    font-weight: normal;
+    color: #333;
+}
+
+.videoWrapper iframe{
+   
+    height: 700px;
+    width: 100%;
+}
+@font-face {
+    font-family: Headliner-No-45;
+    src: url(/HeadlinerNo.45\ DEMO.ttf);
+}
