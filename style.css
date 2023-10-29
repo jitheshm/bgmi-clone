@@ -145,6 +145,79 @@ right: 80px;
     height: 700px;
     width: 100%;
 }
+.newsSection{
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/news_bg.jpg);
+    height: 620px;
+    background-size: cover;
+    padding: 100px 0;
+    
+}
+
+.newsSection .content{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+.newsSlide{
+    width: 1210px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.newsSlide .slide{
+    height: 345px;
+    width: 399px;
+    background-color: #ffffff;
+}
+
+.slide .slideImg{
+    height: 210px;
+}
+.newsImg{
+    width: 100%;
+}
+.slideData{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.slideData .slideTitle{
+    margin-top: 5px;
+    font-size: 22px;
+    height: 2.4rem;
+    color: #333;
+}
+
+.slideData .slideAbout{
+   
+    font-size: 20px;
+    margin-top: 10px;
+    color: #999;
+    
+}
+.slideData .slideDate{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: #999;
+}
+
+.newsViewMore{
+    margin: 50px auto 0;
+    font-size: 20px;
+    color: #666;
+    min-width: 200px;
+    height: 50px;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d5d5d5;
+   background-color: transparent;
+}
 @font-face {
     font-family: Headliner-No-45;
     src: url(/HeadlinerNo.45\ DEMO.ttf);
