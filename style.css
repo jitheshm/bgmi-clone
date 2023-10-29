@@ -197,6 +197,7 @@ right: 80px;
     font-size: 20px;
     margin-top: 10px;
     color: #999;
+    min-height: 15px;
     
 }
 .slideData .slideDate{
@@ -217,6 +218,22 @@ right: 80px;
     border-width: 2px;
     border-color: #d5d5d5;
    background-color: transparent;
+}
+
+.newsVideoPanel{
+    height: 600px;
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/video_bg.jpg);
+    padding-top: 100px;
+    background-size: cover;
+}
+.newsVideoTitle{
+    color: #ffffff;
+    font-family: "Headliner-No-45";
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    
+    text-align: center;
 }
 @font-face {
     font-family: Headliner-No-45;
