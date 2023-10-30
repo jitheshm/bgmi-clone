@@ -33,6 +33,10 @@
     color: #ffffff80;
 }
 
+.navLink a:hover {
+    color: #f2a900;
+}
+
 body {
     font-family: 'Teko', 'Oswald', sans-serif;
     font-size: 20px;
@@ -68,7 +72,7 @@ a:focus {
 .navBtn {
 
     height: 76px;
-    background-color: #f2a900;
+    background-color: #eca800;
     width: auto;
     font-weight: 700;
     font-size: 18PX;
@@ -76,6 +80,47 @@ a:focus {
     padding-left: 18PX;
     padding-right: 18px;
     line-height: 76px;
+
+}
+
+.navBtn a:hover {
+    color: #333;
+}
+
+
+.navBtn:hover {
+    opacity: 0.9;
+
+
+    cursor: pointer;
+
+}
+
+.navBtn2 {
+
+    height: 76px;
+    background-color: #e2ad0d;
+    ;
+    width: auto;
+    font-weight: 700;
+    font-size: 18PX;
+    color: #333;
+    padding-left: 18PX;
+    padding-right: 18px;
+    line-height: 76px;
+
+}
+
+.navBtn2 a:hover {
+    color: #333;
+}
+
+
+.navBtn2:hover {
+    opacity: 0.9;
+
+
+    cursor: pointer;
 
 }
 
@@ -334,7 +379,7 @@ a:focus {
     margin-left: 20px;
 }
 
-.footer .footerLinks a + a ::before {
+.footer .footerLinks a+a ::before {
     content: "";
     width: 1px;
     height: 14px;
@@ -346,9 +391,12 @@ a:focus {
     left: -10px;
     opacity: 0.7;
 }
-
+.fb{
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/sns_f_w.png);
+}
 
 @font-face {
     font-family: Headliner-No-45;
     src: url(/HeadlinerNo.45\ DEMO.ttf);
 }
+
