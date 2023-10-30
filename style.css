@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     height: 76px;
     width: 100%;
     background-color: #000000;
@@ -11,51 +11,62 @@
     z-index: 10;
 
 }
-.leftNav{
+
+.leftNav {
     display: flex;
     align-items: center;
-    
+
 }
-.logoBox{
+
+.logoBox {
     margin-left: 20px;
 }
-.logo{
+
+.logo {
     height: 50px;
 }
-.navLink{
+
+.navLink {
     padding-left: 40px;
     display: flex;
     gap: 30px;
     color: #ffffff80;
 }
-body{
-    font-family:'Teko', 'Oswald', sans-serif;
+
+body {
+    font-family: 'Teko', 'Oswald', sans-serif;
     font-size: 20px;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
-   
+
 }
-a:hover{
+
+a:hover {
     color: #ffffff;
 }
-a:focus{
-    color:#f2a900;
+
+a:focus {
+    color: #f2a900;
     outline: none;
 }
-.socialIconsContainer{
+
+.socialIconsContainer {
     display: flex;
     align-items: center;
     gap: 1px;
-    
+
 }
-.socialIcons{
+
+.socialIcons {
     margin-right: 10px;
 }
-.navBtn{ 
-   
+
+.navBtn {
+
     height: 76px;
     background-color: #f2a900;
     width: auto;
@@ -65,47 +76,51 @@ a:focus{
     padding-left: 18PX;
     padding-right: 18px;
     line-height: 76px;
-    
+
 }
 
-.coverVideo{
+.coverVideo {
     height: 759.938px;
-  
+
     /* width: 100%; */
     /* background-color: #00bcf5; */
 }
-.videoSec{
+
+.videoSec {
     width: 100%;
     /* object-fit: cover; */
     position: absolute;
     z-index: 0;
 }
 
-.coverContent{
+.coverContent {
     position: relative;
-    height:759.938px ;
+    height: 759.938px;
     z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
+
     padding-left: 80px;
 }
-.coverText{
+
+.coverText {
     color: #530c0a;
     font-weight: 700;
     font-size: 72px;
     line-height: 0.9em;
     height: 200px;
 }
-.appStore{
+
+.appStore {
     background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_appstore_202.png);
     width: 202px;
     height: 60px;
     display: inline-block;
     margin-right: 5px;
 }
-.playStore{
+
+.playStore {
     background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_googleplay_202.png);
     width: 202px;
     height: 60px;
@@ -113,12 +128,13 @@ a:focus{
 
 }
 
-.coverFooter{
-position: absolute;
-top: 680px;
-right: 80px;
+.coverFooter {
+    position: absolute;
+    top: 680px;
+    right: 80px;
 }
-.youtubeContainer{
+
+.youtubeContainer {
     background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/videot_bg.jpg);
     background-size: cover;
     height: 850px;
@@ -126,88 +142,95 @@ right: 80px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.youtubeContainer .content{
+
+.youtubeContainer .content {
     max-width: 1200px;
     margin: auto;
     text-align: center;
     height: 100%;
 }
 
-.title{
+.title {
     font-family: "Headliner-No-45";
     font-size: 55px;
     font-weight: normal;
     color: #333;
 }
 
-.videoWrapper iframe{
-   
+.videoWrapper iframe {
+
     height: 700px;
     width: 100%;
 }
-.newsSection{
+
+.newsSection {
     background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/news_bg.jpg);
     height: 620px;
     background-size: cover;
     padding: 100px 0;
-    
+
 }
 
-.newsSection .content{
+.newsSection .content {
     max-width: 1200px;
     margin: auto;
     text-align: center;
     height: 100%;
 }
-.newsSlide{
+
+.newsSlide {
     width: 1210px;
     margin: auto;
     display: flex;
     gap: 15px;
 }
 
-.newsSlide .slide{
+.newsSlide .slide {
     height: 345px;
     width: 399px;
     background-color: #ffffff;
 }
 
-.slide .slideImg{
+.slide .slideImg {
     height: 210px;
 }
-.newsImg{
+
+.newsImg {
     width: 100%;
 }
-.slideData{
+
+.slideData {
     display: flex;
     flex-direction: column;
     text-align: start;
     padding-left: 20px;
     padding-top: 10px;
 }
-.slideData .slideTitle{
+
+.slideData .slideTitle {
     margin-top: 5px;
     font-size: 22px;
     height: 2.4rem;
     color: #333;
 }
 
-.slideData .slideAbout{
-   
+.slideData .slideAbout {
+
     font-size: 20px;
     margin-top: 10px;
     color: #999;
     min-height: 15px;
-    
+
 }
-.slideData .slideDate{
+
+.slideData .slideDate {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 2px;
     color: #999;
 }
 
-.newsViewMore{
+.newsViewMore {
     margin: 50px auto 0;
     font-size: 20px;
     color: #666;
@@ -217,24 +240,114 @@ right: 80px;
     border-style: solid;
     border-width: 2px;
     border-color: #d5d5d5;
-   background-color: transparent;
+    background-color: transparent;
 }
 
-.newsVideoPanel{
+.newsVideoPanel {
     height: 600px;
     background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/video_bg.jpg);
     padding-top: 100px;
     background-size: cover;
 }
-.newsVideoTitle{
+
+.newsVideoTitle {
     color: #ffffff;
     font-family: "Headliner-No-45";
     font-size: 55px;
     letter-spacing: 2px;
     margin-bottom: 30px;
-    
+
     text-align: center;
 }
+
+.bottomContainer {
+    height: 440px;
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/main/app_bg.jpg);
+    background-size: cover;
+}
+
+.bottomIconContainer {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.bottomIcon {
+    padding-top: 50px;
+
+}
+
+.bottomTitle {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    color: #333;
+    line-height: 2rem;
+}
+
+.bottomBtn .appStore {
+    width: 250px;
+    height: 76px;
+    background-size: cover;
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_appstore_250.png);
+}
+
+.bottomBtn .playStore {
+    width: 250px;
+    height: 76px;
+    background-size: cover;
+    background-image: url(https://www.battlegroundsmobileindia.com/common/img/btn/btn_googleplay_250.png);
+}
+
+.footer {
+    height: 80px;
+    background-color: #000000;
+    padding: 25px 0;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.footerLogoContainer {
+    height: 20px;
+}
+
+.footerLogo {
+    height: 100%;
+}
+
+.copyright {
+    color: #999;
+    font-size: 15px;
+}
+
+.footerLinks {
+    color: #999;
+    font-size: 15px;
+}
+
+.footerLinks a {
+    margin-left: 20px;
+}
+
+.footer .footerLinks a + a ::before {
+    content: "";
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    display: inline-block;
+    /* flex-direction: column; */
+    position: relative;
+    top: 3px;
+    left: -10px;
+    opacity: 0.7;
+}
+
+
 @font-face {
     font-family: Headliner-No-45;
     src: url(/HeadlinerNo.45\ DEMO.ttf);
