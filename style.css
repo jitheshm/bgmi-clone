@@ -399,4 +399,20 @@ a:focus {
     font-family: Headliner-No-45;
     src: url(HeadlinerNo.45.ttf);
 }
+.playIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #f2a900;
+    position: absolute;
+    top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    position: relative;
+}
 
+.playIcon img{
+    width: 30%;
+}
